@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لعبة ذاكرة الكروت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 لعبة الذاكرة</h1>
+  
+  <div id="info">
+    ⏱️ الوقت: <span id="timer">0</span> ثانية |  
+    📈 المحاولات: <span id="tries">0</span>
+  </div>
+
+  <div id="game-board"></div>
+
+  <p id="message"></p>
+  <button onclick="restartGame()">🔄 إعادة اللعب</button>
+
+  <audio id="match-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_1f41ba56f6.mp3?filename=correct-2-46134.mp3"></audio>
+  <audio id="fail-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_1d380d2482.mp3?filename=wrong-2-46134.mp3"></audio>
+  <audio id="win-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_5c75d9a70e.mp3?filename=success-1-6297.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
